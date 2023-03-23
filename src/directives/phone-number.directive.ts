@@ -1,4 +1,4 @@
-export class phoneNumberDirective {
+export class PhoneNumberDirective {
     static selector = "[phone-number]";
     willHaveSpace = true;
     borderColor = "red";
@@ -8,7 +8,7 @@ export class phoneNumberDirective {
       const groups: string[] = [];
       for (let i = 0; i < value.length; i += 2) {
         groups.push(value.substring(i, i + 2));
-      }
+      }https://github.com/Getro31/Angular-Directives.git
       element.value = groups.join(this.willHaveSpace? " " : "");
     }
     init() {

@@ -1,4 +1,4 @@
-export class creditCardNumberDirective {
+export class CreditCardNumberDirective {
     static selector = "[credit-number]";
     constructor(public element: HTMLElement) {}
     formatCreditNumber(element: HTMLInputElement) {
